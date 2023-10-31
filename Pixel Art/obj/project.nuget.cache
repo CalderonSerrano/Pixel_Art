@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tvYcYlq7VE91nxU+Ty3koy+wHhAn5Ao/0ks5XaciLZNli0qOE9WSavdHGLNwjc1ZpvvXd8/cDMqIUCNMBdLNBA==",
+  "success": true,
+  "projectFilePath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alumno\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\alumno\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

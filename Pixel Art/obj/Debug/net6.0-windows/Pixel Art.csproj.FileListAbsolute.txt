@@ -1,0 +1,26 @@
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Pixel Art.exe
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Pixel Art.deps.json
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Pixel Art.runtimeconfig.json
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Pixel Art.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Pixel Art.pdb
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\App.g.cs
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art_MarkupCompile.cache
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art_MarkupCompile.lref
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\MainWindow.baml
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.g.resources
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.GeneratedMSBuildEditorConfig.editorconfig
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.AssemblyInfoInputs.cache
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.AssemblyInfo.cs
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.csproj.CoreCompileInputs.cache
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\refint\Pixel Art.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.pdb
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.genruntimeconfig.cache
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\ref\Pixel Art.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\ControlzEx.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\MahApps.Metro.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.csproj.AssemblyReference.cache
+D:\2 DAM\DINT (Desarrollo de Interfaces)\Pixel Art\obj\Debug\net6.0-windows\Pixel Art.csproj.CopyComplete
