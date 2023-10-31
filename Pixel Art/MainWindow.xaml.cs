@@ -207,6 +207,13 @@ namespace Pixel_Art
                 return;
             }
 
+            // Verifica si ya existe un dibujo con el mismo nombre.
+            if (dibujos.listaDibujos.Any(d => d.Nombre == nombreDibujo))
+            {
+                MessageBox.Show("Ya existe un dibujo con el mismo nombre. Por favor, elige otro nombre.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             // Crea una matriz para almacenar los Border actuales.
             Border[,] borders = new Border[dimensiones, dimensiones];
 
@@ -231,9 +238,6 @@ namespace Pixel_Art
             listaDibujosListBox.Items.Add(nombreDibujo);
             MessageBox.Show("Dibujo guardado con éxito.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
         }
-
-
-
 
         private string PromptForDibujoNombre()
         {
@@ -287,27 +291,45 @@ namespace Pixel_Art
             int numFilas = dibujo.NumFilas;
             int numColumnas = dibujo.NumColumnas;
 
-            // Asegúrate de que las dimensiones coincidan antes de cargar el dibujo.
+            // Verifica si las dimensiones coinciden con el tamaño del lienzo actual.
             if (numFilas != dimensiones || numColumnas != dimensiones)
             {
-                MessageBox.Show("Las dimensiones del dibujo no coinciden con el tamaño del lienzo actual.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
-
-            // Establece las dimensiones del lienzo actual.
-            dimensiones = numFilas;
-            dimensiones = numColumnas;
-
-            // Recorre la matriz de Border y agrega los elementos al lienzo.
-            for (int i = 0; i < numFilas; i++)
-            {
-                for (int j = 0; j < numColumnas; j++)
+                MessageBoxResult result = MessageBox.Show("Las dimensiones del dibujo no coinciden con el tamaño del lienzo actual. ¿Desea redimensionar el lienzo para cargar el dibujo?", "Error de Dimensiones", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
                 {
-                    Border elemento = dibujo.Borders[i, j];
-                    pixelPanelGrid.Children.Add(elemento);
+                    // Redimensiona el lienzo actual con las dimensiones del dibujo.
+                    dimensiones = numFilas;
+                    dimensiones = numColumnas;
+
+                    // Recorre la matriz de Border y agrega los elementos al lienzo.
+                    for (int i = 0; i < numFilas; i++)
+                    {
+                        for (int j = 0; j < numColumnas; j++)
+                        {
+                            Border elemento = dibujo.Borders[i, j];
+                            pixelPanelGrid.Children.Add(elemento);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                // Las dimensiones coinciden, así que simplemente carga el dibujo en el lienzo.
+                dimensiones = numFilas;
+                dimensiones = numColumnas;
+
+                // Recorre la matriz de Border y agrega los elementos al lienzo.
+                for (int i = 0; i < numFilas; i++)
+                {
+                    for (int j = 0; j < numColumnas; j++)
+                    {
+                        Border elemento = dibujo.Borders[i, j];
+                        pixelPanelGrid.Children.Add(elemento);
+                    }
                 }
             }
         }
+
 
         private void BorrarDibujo_Click(object sender, RoutedEventArgs e)
         {
@@ -325,6 +347,7 @@ namespace Pixel_Art
                 {
                     // Borrar el dibujo de la lista.
                     dibujos.listaDibujos.Remove(dibujo);
+                    listaDibujosListBox.Items.Remove(nombre);
                 }
             }
             else
