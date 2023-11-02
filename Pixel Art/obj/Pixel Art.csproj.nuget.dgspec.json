@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj": {}
+    "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\Pixel Art.csproj": {}
   },
   "projects": {
-    "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj": {
+    "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\Pixel Art.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj",
+        "projectUniqueName": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\Pixel Art.csproj",
         "projectName": "Pixel Art",
-        "projectPath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj",
+        "projectPath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\Pixel Art.csproj",
         "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\obj\\",
+        "outputPath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

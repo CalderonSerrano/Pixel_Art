@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tvYcYlq7VE91nxU+Ty3koy+wHhAn5Ao/0ks5XaciLZNli0qOE9WSavdHGLNwjc1ZpvvXd8/cDMqIUCNMBdLNBA==",
+  "dgSpecHash": "HYummBtBqt9iFOpURyDzBL/QlVxG3vj0PXNN9yiqya7+L6VxOoVzs7kjMhts1Zfgdc5IKo71suSY7MfZksbIHg==",
   "success": true,
-  "projectFilePath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\Pixel Art\\Pixel Art.csproj",
+  "projectFilePath": "D:\\2 DAM\\DINT (Desarrollo de Interfaces)\\PixelArtGithub\\Pixel_Art\\Pixel Art\\Pixel Art.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alumno\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\alumno\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",

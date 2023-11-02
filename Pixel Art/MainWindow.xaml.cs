@@ -335,17 +335,14 @@ namespace Pixel_Art
         {
             string nombre = PromptForDibujoBorrar("Nombre del dibujo a borrar");
 
-            // Buscar el dibujo en la lista por nombre.
             Dibujo dibujo = dibujos.BuscarDibujoPorNombre(nombre);
 
             if (dibujo != null)
             {
-                // Confirmar con el usuario antes de borrar el dibujo.
                 MessageBoxResult result = MessageBox.Show("¿Desea borrar el dibujo '" + nombre + "'?", "Confirmar Borrado", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
                 if (result == MessageBoxResult.Yes)
                 {
-                    // Borrar el dibujo de la lista.
                     dibujos.listaDibujos.Remove(dibujo);
                     listaDibujosListBox.Items.Remove(nombre);
                 }

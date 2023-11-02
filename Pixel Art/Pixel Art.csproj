@@ -6,12 +6,17 @@
     <RootNamespace>Pixel_Art</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>depositphotos_599403884-stock-illustration-star-pixel-art-icon-isolated-removebg-preview.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Border.png" />
     <None Remove="bucket.png" />
     <None Remove="noBorder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="depositphotos_599403884-stock-illustration-star-pixel-art-icon-isolated-removebg-preview.ico" />
   </ItemGroup>
 
   <ItemGroup>
